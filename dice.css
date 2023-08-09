@@ -1,0 +1,63 @@
+
+.container
+{
+   
+   display: flex;
+   flex-direction:row;
+   width: auto;
+   top:200px;
+   left: 300px;
+   position: absolute;
+   justify-content: space-between;
+
+}
+
+div>section{
+
+    
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    height: auto;
+  
+  
+}
+
+#reset
+{
+    background-color: hsl(328, 87%, 58%); 
+    color: black;  
+}
+
+#rollButton2, #rollButton, #reset{
+  
+    
+    font-size: xx-small;    
+    padding: 8px;
+    width: 80px;
+    border: none;
+    
+}
+
+#rollButton2, #rollButton {
+background-color: green;
+color: aliceblue;
+}
+
+main>span{
+     position: absolute;
+    color:forestgreen;
+    top: 60px;
+    left: 580px;
+
+}
+
+h2{
+    position: absolute;
+   
+    top: 80px;
+    left: 550px;
+
+
+}
+
