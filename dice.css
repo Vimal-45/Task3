@@ -1,24 +1,35 @@
 
-.container
+*{
+    font-weight: bold;
+}
+.container{
+   
+    
+    align-items:center;
+   
+    
+}
+
+.flex
 {
    
    display: flex;
    flex-direction:row;
-   width: auto;
-   top:200px;
-   left: 300px;
-   position: absolute;
-   justify-content: space-between;
-
+   
+   justify-content: space-around;
+  
+  
 }
 
 div>section{
 
     
     padding: 10px;
-    width: 200px;
+    width: 150px;
     text-align: center;
     height: auto;
+    
+   
   
   
 }
@@ -44,20 +55,16 @@ background-color: green;
 color: aliceblue;
 }
 
-main>span{
-     position: absolute;
+p{
+    
     color:forestgreen;
-    top: 60px;
-    left: 580px;
+ 
+    text-align: center;
 
 }
 
 h2{
-    position: absolute;
    
-    top: 80px;
-    left: 550px;
-
-
+text-align:center;
 }
 

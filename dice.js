@@ -23,7 +23,7 @@ let score1 = 0
 let score2 = 0
 // Function to roll the dice and update the image
 
-rollButton2.disabled = true
+rollButton2.disabled = true;
 rollButton2.style.background = "grey"
 function rollDice(player) {
 
